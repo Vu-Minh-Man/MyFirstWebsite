@@ -1,0 +1,7 @@
+.alert {
+  display: block;
+  max-width: fit-content;
+  width: 100%;
+  text-align: justify;
+  user-select: none;
+}

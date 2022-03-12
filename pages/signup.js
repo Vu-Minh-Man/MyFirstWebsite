@@ -2,16 +2,16 @@ import Container from "react-bootstrap/Container";
 
 import Layout from "../components/common/Layout";
 import TopNavbar from "../components/NavBar/TopNavbar";
-import HomePage from "../components/Home/HomePage";
+import SignUpForm from "../components/SignUp/SignUpForm";
 
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function SignUp() {
   return (
-    <Layout title="Home">
+    <Layout title="Sign Up">
       <TopNavbar />
       <Container className={styles.main}>
-        <HomePage />
+        <SignUpForm />
       </Container>
     </Layout>
   );
