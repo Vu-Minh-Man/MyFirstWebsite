@@ -1,11 +1,7 @@
 import { useState, useEffect } from "react";
 import _ from "lodash";
 
-//import Container from "react-bootstrap/container";
-import Row from "react-bootstrap/row";
-import Col from "react-bootstrap/col";
-import Button from "react-bootstrap/button";
-import Form from "react-bootstrap/form";
+import { Row, Col, Form, Button } from "react-bootstrap";
 import FormOption from "../../common/FormOption";
 
 import topicService from "../../../services/topicService";

@@ -1,7 +1,8 @@
-const serverUrl = "https://sleepy-ocean-50803.herokuapp.com";
+//const serverUrl = "https://sleepy-ocean-50803.herokuapp.com" || "http://localhost:8080";
+
+const serverUrl = process.env.SERVER_URL || "http://localhost:8080";
 
 const config = {
-  //host: process.env.NEXT_PUBLIC_HOST,
   apiUrl: serverUrl + "/api",
 };
 

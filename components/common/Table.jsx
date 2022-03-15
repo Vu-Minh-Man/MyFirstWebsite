@@ -1,7 +1,7 @@
 import Link from "next/link";
 import _ from "lodash";
 
-import BTable from "react-bootstrap/Table";
+import { Table as BTable } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
 

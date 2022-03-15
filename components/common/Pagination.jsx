@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import _ from "lodash";
 
-import BPagination from "react-bootstrap/Pagination";
+import { Pagination as BPagination } from "react-bootstrap";
 
 function Pagination(props) {
   const { itemsCount, pageSize, currentPage, onClick } = props;

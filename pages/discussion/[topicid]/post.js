@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import _ from "lodash";
 
-import Container from "react-bootstrap/Container";
+import { Container } from "react-bootstrap";
 
 import Layout from "../../../components/common/Layout";
 import TopNavbar from "../../../components/NavBar/TopNavbar";

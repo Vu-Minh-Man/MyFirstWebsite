@@ -1,5 +1,4 @@
-import Form from "react-bootstrap/Form";
-import Alert from "react-bootstrap/Alert";
+import { Form, Alert } from "react-bootstrap";
 
 import styles from "./styles/FormItem.module.css";
 

@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-import BForm from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import { Form, Button } from "react-bootstrap";
 
 import FormItem from "../common/FormItem";
 import user from "../../services/userService";
@@ -64,7 +63,7 @@ function LoginForm() {
   };
 
   return (
-    <BForm onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit}>
       <FormItem
         data={userId.value}
         error={userId.error}
@@ -84,7 +83,7 @@ function LoginForm() {
       <Button variant="primary" type="submit" disabled={!isSubmitable()}>
         Login
       </Button>
-    </BForm>
+    </Form>
   );
 }
 

@@ -1,4 +1,4 @@
-import Form from "react-bootstrap/form";
+import { Form } from "react-bootstrap";
 
 function FormOption(props) {
   const { label, options, optionProps, valid, selected, onChange } = props;

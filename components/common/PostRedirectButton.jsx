@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/button";
+import { Button } from "react-bootstrap";
 
 function PostRedirectButton(props) {
   const { label, url, user, allowAnonymous } = props;
